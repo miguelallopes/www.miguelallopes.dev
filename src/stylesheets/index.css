@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+.website-logo {
+  width: 100px;
+  height: 100px;
+}
+
+span {
+  color: white;
+}
+
+html {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1.5rem;
+}
+
+footer div {
+    padding-top: 1.5rem;
+}
+
+body {
+  @apply bg-gray-900;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+ul {
+  display: flex;
+  justify-content: end;
+  flex-wrap: wrap;
+}
+
+ul li:hover {
+  color: gray;
+  text-decoration: underline;
+}
+
+ul li {
+  list-style-type: none;
+  color: white;
+  padding-right: 10px;
+}
+
+#footer-social-media {
+  display: flex;
+  flex-direction: column;
+}
+
+header a span {
+  color: white;
+  padding-left: 10px;
+}
+
+header a {
+  display: flex;
+  align-items: center;
+}
+
+#old-website {
+  color: blue;
+}
+
+@media only screen and (max-width: 700px) {
+  #header-title {
+    display: none;
+  }
+
+  #navbar {
+    background-color: black;
+    display: block;
+  }
+}
