@@ -187,6 +187,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 1.5rem;
 }
 footer {
   display: flex;
@@ -222,12 +223,16 @@ header a {
 #old-website {
   color: blue;
 }
-@media only screen and (max-width: 700px) {
+#content-banner {
+  color: white;
+}
+@media only screen and (max-width: 375px) {
   #header-title {
     display: none;
   }
+}
+@media only screen and (max-width: 700px) {
   #navbar {
-    background-color: black;
     display: block;
   }
 }
